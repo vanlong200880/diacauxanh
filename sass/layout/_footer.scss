@@ -1,0 +1,35 @@
+/*====Footer========*/
+footer {
+	background-color: #eeeeee;
+	border-top: 5px solid $color;
+	padding-bottom: 20px;
+  .f-social{
+    text-align: right;
+    margin: 10px 0;
+    a span.fa{
+      color: #9d9c9c;
+      font-size: 30px;
+    }
+  }
+  .f-left{
+    width: auto;
+    display: inline-block;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    float: left;
+    margin-top: 15px;
+  }
+  .f-right {
+    float: right;
+    width: auto;
+  }
+  .f-right ul li{
+    display: inline-block;
+    padding: 0 10px 0 0;
+  }
+  
+  .f-right ul li a{
+    color: #000;
+  }
+}
