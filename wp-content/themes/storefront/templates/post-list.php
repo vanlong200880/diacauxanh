@@ -17,7 +17,7 @@
       <div class="col-md-12">
         <div class="type-title">
           <p class="title"><a href="<?php echo home_url() ?>/danh-muc/phan-bon">Các loại phân bón</a></p>
-          <p>Giải quyết mối lo của nhà nông. Giải quyết mối lo của nhà nông. Giải quyết mối lo của nhà nông. Giải quyết mối lo của nhà nông. Giải quyết mối lo của nhà nông. Giải quyết mối lo của nhà nông.</p>
+          <p>Sản phẩm phân bón khoáng hòa tan 100% chứa NPK và trung vi lượng sản xuất theo công nghệ chelate giúp cây ăn dài ăn dai và đảm bao dưỡng chất đi vào cây là 98% </p>
         </div>
       </div>
       <div class="col-md-12 list-post">

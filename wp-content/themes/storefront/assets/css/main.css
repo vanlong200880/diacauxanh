@@ -124,13 +124,14 @@ h6 {
       -ms-border-radius: 4px; }
       .header ul li a:hover {
         color: #FFF;
-        background: #006400; }
+        background: #5e9e42; }
   .header .row-logo {
     text-align: center; }
   .header .menu-top {
     background: #fff;
     height: 50px;
-    margin-top: 20px;
+    width: 70%;
+    margin: 20px auto;
     border-bottom-right-radius: 15px;
     -moz-border-bottom-right-radius: 15px;
     -webkit-border-bottom-right-radius: 15px;
@@ -178,7 +179,7 @@ h6 {
     .information .info h1 {
       font-size: 24px;
       font-weight: bold;
-      color: #006400; }
+      color: #5e9e42; }
     .information .info h2 {
       font-size: 16px; }
     .information .info p {
@@ -190,7 +191,7 @@ p.readmore {
   text-align: center;
   margin-top: 15px; }
   p.readmore a {
-    background: #006400;
+    background: #5e9e42;
     color: #FFF;
     text-align: center;
     padding: 5px 15px;
@@ -224,7 +225,7 @@ p.readmore {
       .about .about-info .about-l2 h2 {
         font-size: 24px;
         font-weight: bold;
-        color: #006400; }
+        color: #5e9e42; }
       .about .about-info .about-l2 p {
         line-height: 22px;
         text-align: justify;
@@ -247,7 +248,7 @@ p.readmore {
     .post-type .type-title p.title {
       font-size: 22px;
       font-weight: bold;
-      color: #006400;
+      color: #5e9e42;
       margin-bottom: 10px; }
   .post-type .slider-type {
     position: relative; }
@@ -269,7 +270,7 @@ p.readmore {
       width: 100%;
       padding: 5px; }
       .post-type .slider-type .item-product a img {
-        border: 2px solid #006400; }
+        border: 2px solid #5e9e42; }
 
 .share {
   background: #4e7533 url("../images/share-bg.png") no-repeat;
@@ -311,7 +312,7 @@ p.readmore {
           width: auto; }
         .share .share-content .share-content-item .share-block .title {
           text-transform: uppercase;
-          color: #006400;
+          color: #5e9e42;
           font-weight: bold; }
 
 .gallery .gallery-content {
@@ -319,7 +320,7 @@ p.readmore {
   width: 60%; }
   .gallery .gallery-content .title {
     font-size: 24px;
-    color: #006400;
+    color: #5e9e42;
     margin-bottom: 10px;
     font-weight: bold; }
   .gallery .gallery-content .readmore {
@@ -346,7 +347,7 @@ p.readmore {
     .contact .contact-us .title {
       font-size: 24px;
       font-weight: bold;
-      color: #006400;
+      color: #5e9e42;
       margin-bottom: 10px; }
     .contact .contact-us .form-item {
       margin-top: 15px; }
@@ -356,11 +357,11 @@ p.readmore {
         -moz-border-radius: 40px;
         -o-border-radius: 40px;
         -ms-border-radius: 40px;
-        border: 1px solid #006400;
+        border: 1px solid #5e9e42;
         height: 40px; }
       .contact .contact-us .form-item input[type='submit'] {
         padding: 0 20px;
-        background: #006400;
+        background: #5e9e42;
         color: #FFF;
         border-radius: 15px;
         -webkit-border-radius: 15px;
@@ -370,7 +371,7 @@ p.readmore {
         height: 30px; }
       .contact .contact-us .form-item textarea {
         height: 200px;
-        border: 1px solid #006400;
+        border: 1px solid #5e9e42;
         border-radius: 20px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
@@ -387,7 +388,7 @@ p.readmore {
       .contact .address .item .icon {
         width: 40px;
         height: 40px;
-        border: 1px solid #006400;
+        border: 1px solid #5e9e42;
         display: inline-block;
         float: left;
         border-radius: 50%;
@@ -398,14 +399,14 @@ p.readmore {
         margin-right: 10px;
         text-align: center;
         line-height: 40px;
-        color: #006400;
+        color: #5e9e42;
         font-size: 22px; }
       .contact .address .item .add p {
         line-height: 20px; }
         .contact .address .item .add p a {
           color: #000; }
           .contact .address .item .add p a:hover {
-            color: #006400; }
+            color: #5e9e42; }
       .contact .address .item .add.line p {
         line-height: 40px; }
   .contact div.wpcf7 img.ajax-loader {
@@ -429,7 +430,7 @@ div.wpcf7 .contact img.ajax-loader {
   .body-content .title h1 {
     text-align: center;
     font-size: 28px;
-    color: #006400;
+    color: #5e9e42;
     margin-bottom: 0;
     font-weight: bold; }
   .body-content .title p.des {
@@ -474,12 +475,12 @@ div.wpcf7 .contact img.ajax-loader {
       position: relative;
       padding-left: 10px; }
       .item-menu ul li a:hover {
-        color: #006400; }
+        color: #5e9e42; }
     .item-menu ul li:before {
       content: "";
       width: 5px;
       height: 5px;
-      background: #006400;
+      background: #5e9e42;
       position: absolute;
       top: 18px;
       margin-right: 5px; }
@@ -508,9 +509,9 @@ ul.row.product-hd li {
       overflow: hidden;
       margin-top: 5px; }
   ul.row.product-hd li:hover .item {
-    border-color: #006400; }
+    border-color: #5e9e42; }
     ul.row.product-hd li:hover .item a h3 {
-      color: #006400; }
+      color: #5e9e42; }
 
 ul.page-numbers {
   margin-bottom: 30px;
@@ -547,7 +548,7 @@ ul.page-numbers {
   .menu-category ul li a {
     color: #000; }
     .menu-category ul li a:hover {
-      color: #006400; }
+      color: #5e9e42; }
   .menu-category ul li span.count {
     display: none; }
 
@@ -637,9 +638,9 @@ ul.page-numbers {
   .category-share ul.category-achive li a {
     color: #000; }
     .category-share ul.category-achive li a:hover {
-      color: #006400; }
+      color: #5e9e42; }
   .category-share ul.category-achive li:hover .pic a {
-    border-color: #006400; }
+    border-color: #5e9e42; }
   .category-share ul.category-achive li .info-news a {
     height: 40px;
     line-height: 20px;
@@ -677,7 +678,7 @@ ul.page-numbers {
     .post-related ul li a {
       color: #000; }
       .post-related ul li a:hover {
-        color: #006400; }
+        color: #5e9e42; }
 
 .paging {
   text-align: right;
@@ -702,12 +703,12 @@ ul.page-numbers {
     border: 1px solid #DDD;
     padding: 3px; }
     .list-gallery ul li a:hover {
-      border-color: #006400; }
+      border-color: #5e9e42; }
 
 /*====Footer========*/
 footer {
   background-color: #eeeeee;
-  border-top: 5px solid #006400;
+  border-top: 5px solid #5e9e42;
   padding-bottom: 20px; }
   footer .f-social {
     text-align: right;

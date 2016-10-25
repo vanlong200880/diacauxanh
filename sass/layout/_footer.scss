@@ -11,6 +11,8 @@ footer {
       font-size: 30px;
     }
   }
+  
+  
   .f-left{
     width: auto;
     display: inline-block;
@@ -19,12 +21,14 @@ footer {
     margin-bottom: 0;
     float: left;
     margin-top: 15px;
+    
   }
   .f-right {
     float: right;
     width: auto;
   }
   .f-right ul li{
+    
     display: inline-block;
     padding: 0 10px 0 0;
   }
@@ -33,3 +37,4 @@ footer {
     color: #000;
   }
 }
+
