@@ -14,13 +14,13 @@
 <div class="post-type" id="product">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 col-sm-12">
         <div class="type-title">
           <p class="title"><a href="<?php echo home_url() ?>/danh-muc/phan-bon">Các loại phân bón</a></p>
           <p>Sản phẩm phân bón khoáng hòa tan 100% chứa NPK và trung vi lượng sản xuất theo công nghệ chelate giúp cây ăn dài ăn dai và đảm bao dưỡng chất đi vào cây là 98% </p>
         </div>
       </div>
-      <div class="col-md-12 list-post">
+      <div class="col-md-12 col-sm-12 list-post">
         <div class="slider-type">
           <div id="owl-slider-type">
             <?php 
@@ -77,6 +77,9 @@
                 items : 4,
                 itemsDesktop : [1199,4],
                 itemsDesktopSmall : [979,4],
+                itemsTablet: [768, 3],
+                itemsMobile: [480, 2],
+                itemsMobile: [320, 1],
                 navigationText: ['<i class="fa fa-angle-double-left" aria-hidden="true"></i>','<i class="fa fa-angle-double-right" aria-hidden="true"></i>']
             });
 

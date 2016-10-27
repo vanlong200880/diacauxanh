@@ -1,0 +1,27 @@
+.header {
+  .menu-top{
+    width: 80%;
+  }
+  ul {
+    li{
+      a{
+        padding: 10px 8px;
+      }
+    }
+  }
+}
+.post-type {
+  .slider-type {
+    .owl-controls {
+      top: 277px;
+      .owl-buttons {
+        div.owl-next{
+          right: -20px;
+        }
+        div.owl-prev{
+          left: -20px;
+        }
+      }
+    }
+  }
+}

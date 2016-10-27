@@ -1,10 +1,10 @@
 <div class="contact" id="contact">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6">
         <?php echo do_shortcode('[contact-form-7 id="207"]'); ?>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6">
         <div class="address">
           <div class="item">
             <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>

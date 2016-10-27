@@ -1,0 +1,59 @@
+.header {
+  .menu-top{
+    width: 100%;
+  }
+  ul {
+    li{
+      a{
+        padding: 10px 8px;
+      }
+    }
+  }
+}
+.about {
+  padding: 0;
+  .about-info {
+    .about-l2{
+      width: 50%;
+    }
+    .about-l3{
+      left: 19%;
+    }
+    .about-l1{
+      width: 100%;
+    }
+  }
+}
+.post-type {
+  .slider-type {
+    .owl-controls {
+      top: 285px;
+      .owl-buttons {
+        div.owl-next{
+          right: 0;
+        }
+        div.owl-prev{
+          left: 0;
+        }
+      }
+    }
+  }
+}
+.share {
+  .share-content {
+    .share-content-item{
+      margin-left: 0;
+      padding: 15px;
+      .share-block{
+        padding-right: 15px;
+         padding-left: 0px; 
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+.gallery {
+  .gallery-content{
+    width: 100%;
+  }
+}

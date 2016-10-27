@@ -1,7 +1,7 @@
 <div class="gallery" id="gallery">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-8 col-sm-8">
         <div id="slider" class="flexslider">
           <ul class="slides">
             <li>
@@ -93,7 +93,7 @@
               controlNav: false,
               animationLoop: false,
               slideshow: false,
-              itemWidth: 210,
+              itemWidth: 100,
               itemMargin: 5,
               asNavFor: '#slider'
             });
@@ -111,7 +111,7 @@
           });
         </script>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-4">
         <div class="gallery-content">
           <p class="title">Hình ảnh</p>
           <p class="description">Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênhPhòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh</p>

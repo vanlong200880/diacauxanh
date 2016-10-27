@@ -26,7 +26,7 @@ get_header( 'shop' ); ?>
 <div class="single-page">
   <div class="container">
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-9 col-sm-8">
         <?php
           /**
            * woocommerce_before_main_content hook.
@@ -61,7 +61,7 @@ get_header( 'shop' ); ?>
 //          do_action( 'woocommerce_sidebar' );
         ?>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-4">
         <div class="menu-category">
           <?php
             the_widget( 'WC_Widget_Product_Categories', array(

@@ -733,69 +733,50 @@ footer {
   footer .f-right ul li a {
     color: #000; }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .wrap-new-adv .top-sub-adv .show-adv {
-    margin-bottom: 8px; }
-    .wrap-new-adv .top-sub-adv .show-adv figure a {
-      float: none;
-      width: 100%;
-      margin-right: 0; }
-    .wrap-new-adv .top-sub-adv .show-adv figure figcaption {
-      width: 100%;
-      float: none; }
-      .wrap-new-adv .top-sub-adv .show-adv figure figcaption p, .wrap-new-adv .top-sub-adv .show-adv figure figcaption span {
-        font-size: 12px;
-        color: #6f6f6e; }
-      .wrap-new-adv .top-sub-adv .show-adv figure figcaption p a {
-        font-size: 12px;
-        color: #000;
-        font-weight: bold;
-        display: block;
-        overflow: hidden;
-        height: 20px;
-        line-height: 20px;
-        width: 100%;
-        margin-bottom: 5px; }
-        .wrap-new-adv .top-sub-adv .show-adv figure figcaption p a:hover {
-          color: #e30513; }
-      .wrap-new-adv .top-sub-adv .show-adv figure figcaption p.address {
-        margin-bottom: 5px;
-        display: inline-block; }
-    .wrap-new-adv .top-sub-adv .show-adv:last-child {
-      margin-bottom: 0; }
-  .wrap-new-adv .category-menu-left {
-    margin-bottom: 10px; }
-    .wrap-new-adv .category-menu-left ul {
-      height: 285px; }
-      .wrap-new-adv .category-menu-left ul li {
-        height: 45px;
-        line-height: 45px; }
-        .wrap-new-adv .category-menu-left ul li a:hover {
-          color: #000; }
-          .wrap-new-adv .category-menu-left ul li a:hover span.icon-icon-health-9, .wrap-new-adv .category-menu-left ul li a:hover .icon-icon-health-5, .wrap-new-adv .category-menu-left ul li a:hover .icon-icon-health-4, .wrap-new-adv .category-menu-left ul li a:hover .icon-icon-health-8, .wrap-new-adv .category-menu-left ul li a:hover .icon-icon-health-6, .wrap-new-adv .category-menu-left ul li a:hover .icon-icon-health-7 {
-            color: #000; }
-      .wrap-new-adv .category-menu-left ul li.color-item-9:hover a:after, .wrap-new-adv .category-menu-left ul .color-item-5:hover a:after, .wrap-new-adv .category-menu-left ul .color-item-4:hover a:after, .wrap-new-adv .category-menu-left ul .color-item-8:hover a:after, .wrap-new-adv .category-menu-left ul .color-item-6:hover a:after, .wrap-new-adv .category-menu-left ul .color-item-7:hover a:after {
-        width: 5px; }
-  .wrap-new-adv .big-new-adv .owl-theme .owl-controls {
-    top: 0;
-    position: absolute;
-    right: 0;
-    margin-top: 0; }
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .header .menu-top {
+    width: 100%; }
+  .header ul li a {
+    padding: 10px 8px; }
 
-  .login-form .close span {
-    position: relative;
-    top: -2px; }
+  .about {
+    padding: 0; }
+    .about .about-info .about-l2 {
+      width: 50%; }
+    .about .about-info .about-l3 {
+      left: 19%; }
+    .about .about-info .about-l1 {
+      width: 100%; }
 
-  #header .topbar .wrap-user ul li ul.dropdown-menu {
-    top: 28px; }
-    #header .topbar .wrap-user ul li ul.dropdown-menu li a {
-      font-size: 13px; }
+  .post-type .slider-type .owl-controls {
+    top: 285px; }
+    .post-type .slider-type .owl-controls .owl-buttons div.owl-next {
+      right: 0; }
+    .post-type .slider-type .owl-controls .owl-buttons div.owl-prev {
+      left: 0; }
 
-  .all-article .show-article-details figure figcaption p img {
-    width: 10px; }
+  .share .share-content .share-content-item {
+    margin-left: 0;
+    padding: 15px; }
+    .share .share-content .share-content-item .share-block {
+      padding-right: 15px;
+      padding-left: 0px;
+      margin-bottom: 15px; }
 
-  .user .all-content-user .content-user {
-    padding: 10px; } }
+  .gallery .gallery-content {
+    width: 100%; } }
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .header .menu-top {
+    width: 80%; }
+  .header ul li a {
+    padding: 10px 8px; }
+
+  .post-type .slider-type .owl-controls {
+    top: 277px; }
+    .post-type .slider-type .owl-controls .owl-buttons div.owl-next {
+      right: -20px; }
+    .post-type .slider-type .owl-controls .owl-buttons div.owl-prev {
+      left: -20px; } }
 @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .wrap-new-adv .top-sub-adv .show-adv {
     display: block;

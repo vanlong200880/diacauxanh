@@ -10,9 +10,9 @@
 
 wp_reset_postdata();
 while ( have_posts() ) : the_post(); ?>
-<li class="col-md-12">
+<li class="col-md-12 col-sm-12">
     <div class="both-news clearfix row">
-      <div class="pic col-md-3">
+      <div class="pic col-md-3 col-sm-3">
         <a href="<?php the_permalink(); ?>" title="<?php echo the_title(); ?>">
           <?php
             $attachment_id = get_post_thumbnail_id(get_the_ID());
@@ -21,7 +21,7 @@ while ( have_posts() ) : the_post(); ?>
             <?php endif; ?>
         </a>
       </div>
-      <div class="info-news col-md-9">
+      <div class="info-news col-md-9 col-sm-9">
         <h3>
           <a href="<?php the_permalink(); ?>" title="<?php echo the_title(); ?>"><?php the_title(); ?></a>
         </h3>
@@ -29,7 +29,7 @@ while ( have_posts() ) : the_post(); ?>
       </div>
     </div><!--end both-news-->
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 col-sm-12">
         <div class="view">
           <a class="pull-right readmore" href="<?php the_permalink(); ?>">Xem thêm</a>
         </div>

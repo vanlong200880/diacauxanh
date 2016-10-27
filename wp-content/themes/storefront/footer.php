@@ -14,12 +14,12 @@
 <footer class="clearfix">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6">
         <div class="f-left">
           © 2016 Designed by <a href="http://www.thietkechuyennghiep.net">Pham Long.</a> All right reserved
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6">
         <div class="f-social">
           <a href="">
             <span class="fa fa-facebook-square"></span>

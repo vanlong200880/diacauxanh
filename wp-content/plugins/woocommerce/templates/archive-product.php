@@ -25,7 +25,7 @@ get_header( 'shop' ); ?>
 <div class="pages">
   <div class="container">
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-9 col-sm-8">
         <?php
         /**
          * woocommerce_before_main_content hook.
@@ -99,7 +99,7 @@ get_header( 'shop' ); ?>
          */
       ?>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
               <?php
                 /**
                  * woocommerce_after_shop_loop hook.
@@ -111,7 +111,7 @@ get_header( 'shop' ); ?>
             </div>
           </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-4">
         <div class="menu-category">
           <?php
             the_widget( 'WC_Widget_Product_Categories', array(

@@ -14,13 +14,13 @@ get_header();
   <section class="all-cat clearfix">
 				<div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
               <div class="title">
                 <h1><?php the_title(); ?></h1>
                 <p class="des"></p>
               </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
               <div class="print">
                 <ul>
                   <li><a href="#"></a></li>
@@ -29,7 +29,7 @@ get_header();
                 </ul>
               </div>
             </div>
-            <div class="col-md-12" id="content">
+            <div class="col-md-12 col-sm-12" id="content">
               <?php the_content(); ?>
             </div>
           </div>

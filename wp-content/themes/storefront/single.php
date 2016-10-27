@@ -12,13 +12,13 @@ global $post;
 <div class="single-content">
   <div class="container">
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-9 col-sm-8">
         <?php while ( have_posts() ) : the_post(); ?>
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 col-sm-12">
             <h1 class="page-title"><?php the_title(); ?></h1>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12 col-sm-12">
             <div class="print">
               <ul>
                 <li><a href="#"></a></li>
@@ -27,7 +27,7 @@ global $post;
               </ul>
             </div>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12 col-sm-12">
               <?php $cat = get_the_category();
               if($cat[0]->slug == 'hinh-anh'){ ?>
                 <?php 
@@ -36,7 +36,7 @@ global $post;
             <div class="list-gallery">
               <ul class="row">
                   <?php foreach ($gallery[0]['ids'] as $value): ?>
-                <li class="col-md-3">
+                <li class="col-md-3 col-sm-4">
                   <a data-rel="lightbox-gallery-0" class="lightbox" href="<?php echo wp_get_attachment_image_url(str_replace('&quot;', '', $value), 'full') ?>">
                       <?php echo wp_get_attachment_image( str_replace('&quot;', '', $value), 'medium' ); ?>
                     </a>
@@ -53,13 +53,13 @@ global $post;
               <?php }
               ?>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12 col-sm-12">
             <div class="auth">
               <span><strong>Ngày đăng: </strong><?php the_date(); ?></span>
             </div>
           </div>
           
-          <div class="col-md-12">
+          <div class="col-md-12 col-sm-12">
             <div class="post-related">
               <h2>Tin khác</h2>
               <?php 
@@ -94,7 +94,7 @@ global $post;
         
         <?php endwhile; // End of the loop. ?>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-4">
         <div class="menu-category">
           <?php
             the_widget( 'WC_Widget_Product_Categories', array(
