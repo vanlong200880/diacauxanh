@@ -172,7 +172,10 @@ h6 {
   width: 100%; }
 
 .information {
-  text-align: center; }
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding-top: 30px; }
   .information .info {
     width: 70%;
     display: inline-block; }
@@ -417,6 +420,16 @@ div.wpcf7 .contact img.ajax-loader {
   display: inline-block;
   width: 16px; }
 
+.slider .owl-theme .owl-controls {
+  margin-top: 0;
+  text-align: right;
+  position: absolute;
+  top: auto;
+  right: auto;
+  z-index: 9999;
+  bottom: 8px;
+  left: 0; }
+
 .body-content {
   padding-bottom: 30px; }
   .body-content #content ul li {
@@ -486,7 +499,8 @@ div.wpcf7 .contact img.ajax-loader {
       margin-right: 5px; }
 
 .pages {
-  margin-top: 80px;
+  float: left;
+  width: 100%;
   background: #f7f7f7;
   padding-top: 40px; }
   .pages .page-title {
