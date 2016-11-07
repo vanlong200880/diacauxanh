@@ -27,7 +27,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<li class="col-md-3 col-sm-4">
+<li class="col-md-3 col-sm-4 col-xs-6">
   <div class="item">
     <?php
     /**

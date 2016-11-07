@@ -14,12 +14,12 @@
 <footer class="clearfix">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-6">
+      <div class="col-md-6 col-sm-6 col-xs-12">
         <div class="f-left">
           © 2016 Designed by <a href="http://www.thietkechuyennghiep.net">Pham Long.</a> All right reserved
         </div>
       </div>
-      <div class="col-md-6 col-sm-6">
+      <div class="col-md-6 col-sm-6 col-xs-12">
         <div class="f-social">
           <a href="">
             <span class="fa fa-facebook-square"></span>
@@ -33,24 +33,11 @@
         </div>
       </div>
     </div>
-    
-    <div class="f-right">
-      <?php
-//        wp_nav_menu( array(
-//            'theme_location' => 'primary',
-//            'menu'=> 'menu_top',
-//            'menu_class' => '',
-//            'container_class' => '',
-//            'before' => '',
-//          'link_before' => ''
-//        ) );
-      ?>
-    </div>
   </div>
 </footer>
 <!-- tpv -->
 </div>
 <?php wp_footer(); ?>
-
+</div>
 </body>
 </html>

@@ -15,44 +15,61 @@ get_header();
   <section class="all-cat clearfix">
 				<div class="container">
           <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-9 col-sm-8 col-xs-12">
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 col-sm-12 col-xs-12">
                   <div class="title">
                     <h1><?php the_title(); ?></h1>
                     <p class="des"></p>
                   </div>
                 </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <ul class="row product-hd">
+                  <?php 
+                    $args = array (					 
+                      'post_status'    => 'publish',
+                      'order'          => 'DESC',
+                      'orderby'        => 'post_date',
+                      'post_type'      => 'product',
+//                      'product_cat'    => 'phan-bon',
+                      'posts_per_page' => 500,
+                    );
+                    $the_query = new WP_Query( $args );
+                    ?>
+                  <?php
+                    if ( $the_query->have_posts() ) : ?>
+                      <?php while ( $the_query->have_posts() ) {
+                              $the_query->the_post(); ?>
+                      
+                      <li class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="item">
+                          <?php
+                          do_action( 'woocommerce_before_shop_loop_item' );
+                          do_action( 'woocommerce_before_shop_loop_item_title' );
+                          do_action( 'woocommerce_shop_loop_item_title' );
 
-                <div class="col-md-12">
-                  <div class="print">
-                    <ul>
-                      <li><a href="#"></a></li>
-                      <li><a href="#"><i class="fa fa-print" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-md-12" id="content">
-                  <?php the_content(); ?>
+                          
+                          ?>
+                        </div>
+                      </li>
+                      <?php } ?>
+                  <?php endif; ?>
+                </ul>
                 </div>
               </div>
               
             </div>
-            <div class="col-md-3">
-              <div class="item-menu">
+            <?php if(!wpmd_is_phone()): ?>
+            <div class="col-md-3 col-sm-4">
+              <div class="menu-category">
                 <?php
-                  wp_nav_menu( array(
-                      'theme_location' => 'primary',
-                      'menu'=> 'menu_right',
-                      'menu_class' => '',
-                      'container_class' => '',
-                      'before' => '',
-                    'link_before' => ''
-                  ) );
-                ?>
+                  the_widget( 'WC_Widget_Product_Categories', array(
+                                                'count'		=> 1,
+                        ) );
+                  ?>
               </div>
             </div>
+            <?php endif; ?>
           </div>
         </div>
   </section>

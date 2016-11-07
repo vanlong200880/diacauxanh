@@ -18,9 +18,11 @@ get_header(); ?>
           <div class="col-md-9 col-sm-8">
             <div class="row">
               <div class="col-md-12 col-sm-12">
-                <h1 class="page-title">
-                  <?php echo single_cat_title(); ?>
-                </h1>
+                <div class="title">
+                  <h1 class="page-title">
+                    <?php echo single_cat_title(); ?>
+                  </h1>
+                </div>
               </div>
             </div>
             <?php if ( have_posts() ) : ?>
@@ -51,9 +53,22 @@ get_header(); ?>
           <div class="col-md-3 col-sm-4">
             <div class="menu-category">
               <?php
+               $cat = get_queried_object();
+              $arr = array('chia-se', 'nhung-cong-nghe-moi', 'ky-thuat-cham-soc-cay', 'phong-tru-sau-benh', 'quy-trinh-bon-phan');
+              if(in_array($cat->slug, $arr)):
+                echo '<div class="widget woocommerce widget_product_categories">';
+                wp_nav_menu( array(
+                  'theme_location' => 'primary',
+                  'menu'=> 'chia_se',
+                  'menu_class' => '',
+                  'container_class' => '',
+                ) );
+                echo '</div>';
+              else:
                 the_widget( 'WC_Widget_Product_Categories', array(
                                               'count'		=> 1,
                       ) );
+              endif;
                 ?>
             </div>
           </div>

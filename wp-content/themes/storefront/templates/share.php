@@ -1,14 +1,14 @@
 <div class="share" id="share">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 col-sm-4">
+      <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="share-item">
           <p class="share-title">Chia sẻ</p>
           <p>Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu</p>
           <p class="readmore"><a href="<?php echo home_url()?>/chia-se">Xem thêm >></a></p>
         </div>
       </div>
-      <div class="col-md-8 col-sm-8">
+      <div class="col-md-8 col-sm-8 col-xs-12">
         <div class="share-content">
           <div class="share-content-item">
             <div class="share-block">

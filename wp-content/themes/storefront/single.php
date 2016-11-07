@@ -97,9 +97,23 @@ global $post;
       <div class="col-md-3 col-sm-4">
         <div class="menu-category">
           <?php
+          $cat = get_the_category();
+          $arr = array('chia-se', 'nhung-cong-nghe-moi', 'ky-thuat-cham-soc-cay', 'phong-tru-sau-benh', 'quy-trinh-bon-phan');
+          if(in_array($cat[0]->slug, $arr)):
+            echo '<div class="widget woocommerce widget_product_categories">';
+                wp_nav_menu( array(
+                  'theme_location' => 'primary',
+                  'menu'=> 'chia_se',
+                  'menu_class' => '',
+                  'container_class' => '',
+                ) );
+                echo '</div>';
+            else:
             the_widget( 'WC_Widget_Product_Categories', array(
                                           'count'		=> 1,
                   ) );
+          endif;
+            
             ?>
         </div>
       </div>

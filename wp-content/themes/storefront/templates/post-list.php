@@ -78,8 +78,8 @@
                 itemsDesktop : [1199,4],
                 itemsDesktopSmall : [979,4],
                 itemsTablet: [768, 3],
-                itemsMobile: [480, 2],
-                itemsMobile: [320, 1],
+                itemsMobile: [480, 3],
+                itemsMobile: [320, 2],
                 navigationText: ['<i class="fa fa-angle-double-left" aria-hidden="true"></i>','<i class="fa fa-angle-double-right" aria-hidden="true"></i>']
             });
 

@@ -5,7 +5,7 @@
     position: absolute;
      top: auto; 
      right: auto; 
-    z-index: 9999;
+    z-index: 9;
     bottom: 8px;
     left: 0;
   }
@@ -33,6 +33,7 @@
       color: $color;
       margin-bottom: 0;
       font-weight: bold;
+      padding-top: 15px;
     }
     p.des{
       text-align: center;
@@ -49,6 +50,7 @@
 }
 .item-menu{
   background: #edf3fb;
+  margin-top: 15px;
 }
 .print{
   background: #edf3fb;
@@ -106,14 +108,13 @@
 }
 .pages{
   float: left;
-  width: 100%;
   background: #f7f7f7;
   padding-top: 40px;
   .page-title{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 10px;
+    margin-top: px;
   }
 }
 ul.row.product-hd{
@@ -173,22 +174,42 @@ ul.page-numbers{
   line-height: 30px;
 }
 .menu-category{
-  background: #d6d4d4;
+  background: #edf3fb;
   padding: 15px;
+  margin-top: 15px;
   @include border-radius(5px);
-  ul{
-    li{
-      a{
-        color: #000;
-        &:hover{
-          color: $color;
+  .widget_product_categories{
+    ul{
+      li{
+        a{
+          color: #000;
+          &:hover{
+            color: $color;
+          }
+
         }
-      }
-      span.count{
-        display: none;
+        span.count{
+          display: none;
+        }
+        &:before{
+          display: inline-block;
+          font: normal normal normal 14px/1 FontAwesome;
+          font-size: inherit;
+          text-rendering: auto;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          width: 15px;
+          height: 15px;
+          content: "\f0fe";
+          display: inline-block;
+          margin-right: 10px;
+          color: $color;
+          opacity: 1;
+        }
       }
     }
   }
+  
 }
 .single-content,
 .category-share,
@@ -200,7 +221,7 @@ ul.page-numbers{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 10px;
+    margin-top: 15px;
   }
 }
 .detail-content{
@@ -406,6 +427,17 @@ ul.page-numbers{
           border-color: $color;
         }
       }
+    }
+  }
+}
+.category-share{
+  .title{
+    h1{
+      font-size: 22px;
+      color: $color;
+      margin-bottom: 0;
+      font-weight: bold;
+      padding-top: 15px;
     }
   }
 }

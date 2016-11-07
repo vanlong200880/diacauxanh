@@ -1,28 +1,14 @@
-<?php
-$taxonomy     = 'product_cat';
-$orderby      = 'id';  
-$show_count   = 0;      // 1 for yes, 0 for no
-$pad_counts   = 0;      // 1 for yes, 0 for no
-$hierarchical = 1;      // 1 for yes, 0 for no  
-$title        = '';  
-$empty        = 0;
-
-$args = array(
-       'taxonomy'     => $taxonomy,
-       'orderby'      => $orderby,
-       'show_count'   => $show_count,
-       'pad_counts'   => $pad_counts,
-       'hierarchical' => $hierarchical,
-       'title_li'     => $title,
-       'hide_empty'   => $empty
-);
-$all_categories = get_categories( $args ); ?>
-  <?php foreach ($all_categories as $cat) { ?>
-      <li>
-        <a href="<?php echo get_term_link($cat->slug, 'product_cat') ?>" title="<?php echo $cat->name; ?>">
-          <span class="icon-fa icon-icon-sewing left-icon"></span>
-          <?php echo $cat->name; ?>
-          <span class="fa fa-angle-right right-icon"></span>
-        </a>
-      </li>
-    <?php	} ?>
+<ul class="row menu-mb">
+  <li class="col-md-4 col-sm-4"><a href="<?php echo home_url(); ?>">Trang chủ</a></li>
+  <li data-id="about" class="col-md-4 col-sm-4"><a href="<?php echo home_url() .'/gioi-thieu' ?>">Giới thiệu</a></li>
+  <li><a href="<?php echo home_url() .'/thong-diep' ?>">Thông điệp</a></li>
+  <li><a href="<?php echo home_url() .'/chien-luoc-phat-trien' ?>">Chiến lược phát triển</a></li>
+  <li><a href="<?php echo home_url() .'/tam-nhin' ?>">Tầm nhìn</a></li>
+  <li><a href="<?php echo home_url() .'/su-menh' ?>">Sứ mệnh</a></li>
+  <li><a href="<?php echo home_url() .'/y-nghia-logo' ?>">Ý nghĩa logo</a></li>
+  <li><a href="<?php echo home_url() .'/lich-su-hinh-thanh' ?>">Lịch sử hình thành</a></li>
+  <li data-id="product" class="col-md-4 col-sm-4"><a href="<?php echo home_url() .'/san-pham' ?>">Sản phẩm</a></li>
+  <li  data-id="share"class="col-md-4 col-sm-4"><a href="<?php echo home_url() .'/chia-se' ?>">Chia sẻ</a></li>
+  <li data-id="gallery" class="col-md-4 col-sm-4"><a href="<?php echo  home_url() .'/hinh-anh' ?>">Hình ảnh</a></li>
+  <li data-id="contact" class="col-md-4 col-sm-4"><a href="<?php echo  home_url() .'/lien-he' ?>">Liên hệ</a></li>
+</ul>
