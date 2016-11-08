@@ -214,9 +214,9 @@ ul.page-numbers{
 .single-content,
 .category-share,
 .single-page{
-  margin-top: 45px;
   background: #f7f7f7;
-  padding-top: 55px;
+  width: 100%;
+  float: left;
   .page-title{
     text-transform: uppercase;
     font-size: 14px;

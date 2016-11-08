@@ -1,7 +1,7 @@
 <div class="share" id="share">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="col-md-4 col-sm-4 col-xs-12 col-share">
         <div class="share-item">
           <p class="share-title">Chia sẻ</p>
           <p>Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu bênh Phòng trừ sâu</p>

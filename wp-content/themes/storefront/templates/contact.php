@@ -37,7 +37,7 @@
           <div class="item">
             <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
             <div class="add line">
-              <p><a href="www.diacauxanh.com">www.diacauxanh.com</a></p>
+              <p><a href="http://www.diacauxanh.com">www.diacauxanh.com</a></p>
             </div>
           </div>
         </div>

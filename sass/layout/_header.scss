@@ -190,6 +190,9 @@ p.readmore{
   background: #4e7533 url('../images/share-bg.png')  no-repeat center;
   display: inline-block;
   width: 100%;
+  .col-share{
+    background: #4e7533;
+  }
   .share-item{
     width: 70%;
     float: left;

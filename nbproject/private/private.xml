@@ -5,15 +5,19 @@
         <group>
             <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/templates/pc/header.php</file>
             <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/header.php</file>
-            <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/assets/js/custom-tpv.js</file>
             <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/pages/product.php</file>
+            <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/archive.php</file>
             <file>file:/E:/wamp/www/diacauxanh/wp-content/plugins/wp-mobile-detect/readme.txt</file>
             <file>file:/E:/wamp/www/diacauxanh/sass/layout/_masterpage.scss</file>
+            <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/single.php</file>
+            <file>file:/E:/wamp/www/diacauxanh/sass/layout/_header.scss</file>
             <file>file:/E:/wamp/www/diacauxanh/sass/media/responsive/_tablet_767.scss</file>
+            <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/templates/mobile/menu-category.php</file>
+            <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/assets/js/custom-tpv.js</file>
             <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/templates/post-list.php</file>
             <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/templates/mobile/header.php</file>
             <file>file:/E:/wamp/www/diacauxanh/wp-content/plugins/woocommerce/templates/content-product.php</file>
-            <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/templates/mobile/menu-category.php</file>
+            <file>file:/E:/wamp/www/diacauxanh/wp-content/themes/storefront/templates/gallery.php</file>
         </group>
     </open-files>
 </project-private>
