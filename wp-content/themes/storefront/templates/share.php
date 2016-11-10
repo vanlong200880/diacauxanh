@@ -13,25 +13,25 @@
           <div class="share-content-item">
             <div class="share-block">
               <p class="img"><img src="<?php echo get_template_directory_uri() ?>/assets/images/sau-bo-1.png"></p>
-              <p class="title">QUY TRÌNH BÓN PHÂN</p>
+              <p class="title"><a href="<?php echo home_url() ?>/chia-se/quy-trinh-bon-phan/">QUY TRÌNH BÓN PHÂN</a></p>
               <p class="description">Việc bón phân đúng cách đòi hỏi người trồng phải có sự hiểu biết về các loại phân cũng như liều lượng dùng để cây phát triển an toàn.</p>
             </div>
             
             <div class="share-block">
               <p class="img"><img src="<?php echo get_template_directory_uri() ?>/assets/images/sau-bo-2.png"></p>
-              <p class="title">PHÒNG TRỪ SÂU BỆNH</p>
+              <p class="title"><a href="<?php echo home_url() ?>/chia-se/phong-tru-sau-benh/">PHÒNG TRỪ SÂU BỆNH</a></p>
               <p class="description">Việc bón phân đúng cách đòi hỏi người trồng phải có sự hiểu biết về các loại phân cũng như liều lượng dùng để cây phát triển an toàn.</p>
             </div>
             
             <div class="share-block">
               <p class="img"><img src="<?php echo get_template_directory_uri() ?>/assets/images/sau-bo-4.png"></p>
-              <p class="title">KỸ THUẬT CHĂM SÓC CÂY</p>
+              <p class="title"><a href="<?php echo home_url() ?>/chia-se/ky-thuat-cham-soc-cay/">KỸ THUẬT CHĂM SÓC CÂY</a></p>
               <p class="description">Việc bón phân đúng cách đòi hỏi người trồng phải có sự hiểu biết về các loại phân cũng như liều lượng dùng để cây phát triển an toàn.</p>
             </div>
             
             <div class="share-block">
               <p class="img"><img src="<?php echo get_template_directory_uri() ?>/assets/images/sau-bo-3.png"></p>
-              <p class="title">NHỮNG CÔNG NGHỆ MỚI</p>
+              <p class="title"><a href="<?php echo home_url() ?>/chia-se/nhung-cong-nghe-moi/">NHỮNG CÔNG NGHỆ MỚI</a></p>
               <p class="description">Việc bón phân đúng cách đòi hỏi người trồng phải có sự hiểu biết về các loại phân cũng như liều lượng dùng để cây phát triển an toàn.</p>
             </div>
           </div>

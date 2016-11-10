@@ -35,8 +35,8 @@
     @include border-bottom-left-radius(15px);
   }
   .logo{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     @include border-radius(100%);
     background: #fff;
     display: inline-block;
@@ -45,8 +45,8 @@
     text-align: center;
     line-height: 100px;
     img{
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
       display: inline-block;
       @include border-radius(100%);
     }
@@ -233,9 +233,11 @@ p.readmore{
           width: auto;
         }
         .title{
-          text-transform: uppercase;
-          color: $color;
-          font-weight: bold;
+          a{
+            text-transform: uppercase;
+            color: $color;
+            font-weight: bold;
+          }
         }
       }
     }

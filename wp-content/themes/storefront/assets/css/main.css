@@ -142,8 +142,8 @@ h6 {
     -ms-border-bottom-left-radius: 15px;
     -o-border-bottom-left-radius: 15px; }
   .header .logo {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -156,8 +156,8 @@ h6 {
     text-align: center;
     line-height: 100px; }
     .header .logo img {
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
       display: inline-block;
       border-radius: 100%;
       -webkit-border-radius: 100%;
@@ -314,7 +314,7 @@ p.readmore {
         .share .share-content .share-content-item .share-block img {
           max-width: 100%;
           width: auto; }
-        .share .share-content .share-content-item .share-block .title {
+        .share .share-content .share-content-item .share-block .title a {
           text-transform: uppercase;
           color: #5e9e42;
           font-weight: bold; }
